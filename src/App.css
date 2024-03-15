@@ -1,0 +1,48 @@
+.user_container {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 3%;
+}
+
+.user_box {
+  border-radius: 0.3rem;
+  background-color: #2c2c2c;
+  width: 30%;
+  padding: 1rem;
+  border: 1.5px solid rgb(66, 66, 66);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.3rem;
+}
+
+.user_img {
+  width: 100%;
+}
+
+.user_tools_ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  > li {
+    text-align: center;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    background-color: #2c2c2c;
+    border: 2px solid rgb(66, 66, 66);
+  }
+}
+
+.user_name {
+  font-size: 1.35rem;
+}
+
+.user_job {
+  font-size: 0.88rem;
+}
